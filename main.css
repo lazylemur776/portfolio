@@ -1,0 +1,25 @@
+html {
+    max-width: 70ch;
+    padding: 3em 1em;
+    margin: auto;
+    line-height: 1.75;
+    font-size: 1.25em;
+}
+
+.grid {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.item {
+    border: 1px solid black;
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 60%;
+    max-width: 60%;
+}
